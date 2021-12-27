@@ -44,7 +44,7 @@ public class Client {
 				break;
 			}
 			
-			//5. 메시지 받기
+			//5. 메시지 보내기
 			bw.write(str);
 			bw.newLine();
 			bw.flush(); //-> buffered 쟁반이 꽉 차야 움직이는 것인데 보내는 데이터가 적으면 null 나옴 
